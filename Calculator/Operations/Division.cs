@@ -23,7 +23,7 @@ namespace Calculator.Operations
             }
             catch (DivideByZeroException e)
             {
-                throw;
+                throw e;
             }
         }
     }
